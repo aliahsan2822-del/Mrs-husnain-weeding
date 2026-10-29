@@ -1,0 +1,12 @@
+{
+  "name": "wedding-invitation",
+  "version": "1.5.0",
+  "private": true,
+  "description": "Luxury 3D interactive wedding invitation (single static HTML page)",
+  "scripts": {
+    "start": "npx --yes serve . -l 8080",
+    "preview": "python3 -m http.server 8080",
+    "embed-images": "python3 tools/embed_images.py"
+  },
+  "license": "UNLICENSED"
+}
